@@ -12,7 +12,9 @@ int main(){
     e1.code=1001;
     e1.salary=34.56;
     strcpy(e1.name, "Armaan");
-    printf("%d %f %s", e1.code, e1.salary, e1.name);
+    struct employee harry = {100, 71.22, "harry"}; // can also be done
+    printf("%d %f %s\n", e1.code, e1.salary, e1.name);
+    printf("%d %f %s", harry.code, harry.salary, harry.name);
     return 0;   
 
 }

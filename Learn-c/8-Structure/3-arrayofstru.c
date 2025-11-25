@@ -18,8 +18,10 @@ int main(){
         printf("Enter name: ");
         scanf("%s", e[i].name);
     }
+    
     for (int i=0; i<3; i++){
         printf("%d %f %s\n", e[i].code, e[i].salary, e[i].name);
     }
+    
     return 0;
 }
